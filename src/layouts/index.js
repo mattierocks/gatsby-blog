@@ -52,7 +52,7 @@ const Sidebar = (props) => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Mattie's Gatsby Blog"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
@@ -102,12 +102,12 @@ const TemplateWrapper = ({ children }) => (
               </div>
 <div style={{ flex: 1 }}>
                 <Sidebar
-                  title="Codestack"
+                  title="Mattie Fuller"
                   description="Articles on React and Node.js. All articles are written by Me. Fullstack Web Development."
                 />
                 <Sidebar
                   title="About author"
-                  description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
+                  description="I am a Full-stack Web Developer specializing in React and Node.js based in Virginia."
                 />
               </div>
             </div>
